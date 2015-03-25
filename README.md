@@ -1,3 +1,5 @@
+[![Code Climate](https://codeclimate.com/github/kosz/tamland/badges/gpa.svg)](https://codeclimate.com/github/kosz/tamland)
+
 ## Tamland the weatherman
 
 A vanilla javascript app, build on top of a 50 lines of code mini-framework called [Entangular](https://github.com/kosz/tamland/blob/master/src/framework/entangular/entangular.js), which allows creating components and services, and sharing them amongst eachother through a mini DI mechanism. 
