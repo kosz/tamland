@@ -1,0 +1,26 @@
+logo {
+  position: fixed;
+  border: 1px solid rgb(0,124,246);
+  height: 66px;
+  width: 66px;
+  border-radius:33px;
+  left: 25px;
+  z-index: 33;
+  display: inline-block;
+  background-image: url(/assets/images/tamland.jpg);
+  background-position:-46px 0px;
+  background-size: 150px 115px;
+  box-shadow: 0px 8px 17px 0 rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 768px) {
+  logo {
+    top: 6px;
+  }
+}
+
+@media (max-width: 768px) {
+  logo {
+    bottom: 10px;
+  }
+}

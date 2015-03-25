@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>tamland</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <base href="/">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <!-- build:css({.tmp/serve,src}) styles/vendor.css -->
+    <!-- <link rel="stylesheet" href="app/vendor.css"> -->
+    <!-- bower:css -->
+    <!-- run `gulp wiredep` to automaticaly populate bower styles dependencies -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css({.tmp/serve,src}) styles/app.css -->
+    <!-- inject:css -->
+    <!-- css files will be automaticaly insert here -->
+    <!-- endinject -->
+    <!-- endbuild -->
+  </head>
+  <body>
+
+    <navbar>
+    </navbar>
+    <logo></logo>
+    
+    <weather>
+
+      <i class="weather-icon wi wi-day-lightning"></i>
+
+      <weather-current-temp>
+        <span class="weather-current-temp">1</span>
+        <span class="weather-unit">°C</span>
+      </weather-current-temp>
+
+      <weather-day-info></weather-day-info>
+
+      <weather-day-forecast></weather-day-forecast> 
+
+      <weather-city-info>
+        <span class="city-info"></span>:
+        <span class="selected-date"></span>   
+      </weather-city-info>
+
+      <searchbutton>
+        <input placeholder="Enter Name of City" type="text" />
+        <i class="fa fa-search"></i>
+      </searchbutton>
+
+      <weather-daily-forecasts>
+        <weather-daily-forecast></weather-daily-forecast>
+        <weather-daily-forecast></weather-daily-forecast>
+        <weather-daily-forecast></weather-daily-forecast>
+        <weather-daily-forecast></weather-daily-forecast>
+        <weather-daily-forecast></weather-daily-forecast>
+        <weather-daily-forecast></weather-daily-forecast>
+        <weather-daily-forecast></weather-daily-forecast>
+      </weather-daily-forecasts>
+
+    </weather>
+    <!-- build:js(src) scripts/vendor.js -->
+    <!-- bower:js -->
+    <!-- run `gulp wiredep` to automaticaly populate bower script dependencies -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js({.tmp/serve,.tmp/partials,src}) scripts/app.js -->
+    <!-- inject:js -->
+    <!-- js files will be automaticaly insert here -->
+    <!-- endinject -->
+
+    <!-- inject:partials -->
+    <!-- angular templates will be automatically converted in js and inserted here -->
+    <!-- endinject -->
+    <!-- endbuild -->
+
+  </body>
+</html>
